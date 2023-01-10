@@ -1,0 +1,147 @@
+body {
+    background: rgb(255, 255, 255);
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+
+header {
+    background-color:rgba(106, 164, 106, 0.866) ;
+    color: white;
+    background-image: url("Images/ashim-d-silva-h8b1T39sm2w-unsplash.jpg");
+    background-size: 100%;
+    background-position: center;
+    padding: 20px;
+    height: 200px;
+    text-align: center;
+}
+
+header a {
+    margin-top: 40px;
+    margin-bottom: -50px;
+    
+}
+
+header .logo a {
+ background-image:url("Images/NTIZOOLOGO20.png");
+ background-size: 350px;
+ background-repeat: no-repeat;
+ width: 350px;
+ height: 350px;
+ position: relative;
+ text-indent: -9999999px;
+ display: inline-block;
+top: -200px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/* SECTION */
+
+section {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    display: flex;
+
+}
+
+section div {
+    background-color: #14420a;
+    width: 100%;
+    margin: 1px;
+    height: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    text-shadow: black;
+
+}
+
+li {
+    display:inline-block; 
+    padding: 0;
+    font-size: 20px;
+    color: white;
+    margin-top: 60px;
+   
+    
+}
+
+
+div {
+    background-color: #14420a ;
+    color: white;
+    width: 100px;
+    margin: auto;
+}
+
+/* ARTICLE */
+
+article {
+background-color: rgba(106, 164, 106, 0.866);
+color: white;
+padding: 15px;
+padding-bottom: 15px;
+display: flex;
+background-image: url("Images/SPECIALDEALMENU.png");
+background-size: 65%;
+background-position: center;
+height: 500px;
+align-content: center;
+width: auto;
+background-repeat: no-repeat;
+position: relative;
+margin: 20px 0px 5px 0px;
+text-indent: -9999999px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: rgba(106, 164, 106, 0.866);
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    font-size: 15px;
+}
+
+/* FEATURES */
+
+.features {
+    background: white;
+    color: gray;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.features figure {
+    margin: auto;
+    width: 300px;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+}
+
+.features figure img {
+    border: 1px solid white;
+    width: 300px;
+    border-radius: 10px;
+    height: 300px;
+    box-shadow: gray 0 0 10px;
+}
